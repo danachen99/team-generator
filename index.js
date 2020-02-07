@@ -1,7 +1,12 @@
 const inquirer = require("inquirer");
+const Employee = require("./lib/Employee");
+const Employee = require("./lib/Engineer");
+const Employee = require("./lib/Manager");
+const Employee = require("./lib/Intern");
 // const fs = require("fs");
 //const axios = require("axios");
 // const util = require("util");
+const team = [];
 
 // const writeFileAsync = util.promisify(fs.writeFile);
 
